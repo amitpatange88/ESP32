@@ -1,4 +1,4 @@
-int ledPin = 13;
+int ledPin = 2;
 
 void setup() {
   // put your setup code here, to run once:
