@@ -60,7 +60,7 @@ void NotifyOnButtonPress()
     flag=1;
     Blynk.notify("Security Breach : Someone has just opened the G-502 door. Please take care of your house. Stamp DateTime : "+formattedDate);
   }
-  else if(DoorStatus == 0 && flag==1)
+  else if(DoorStatus == 0 && flag==1)//when door is closed.
   {
     flag=0;
     Blynk.notify("Security Breach : Now the G-502 door has been closed.  Stamp DateTime : "+formattedDate);
